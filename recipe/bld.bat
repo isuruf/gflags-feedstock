@@ -15,4 +15,7 @@ cmake -G "%CMAKE_GENERATOR%" ^
 
 cmake --build . --target install --config %CMAKE_CONFIG%
 
+type CMakeFiles/CMakeOutput.log
+type CMakeFiles/CMakeError.log
+
 popd
