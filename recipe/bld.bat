@@ -3,7 +3,7 @@ set CMAKE_CONFIG=Release
 mkdir build_%CMAKE_CONFIG%
 pushd build_%CMAKE_CONFIG%
 
-cmake -G "NMake Makefiles" ^
+cmake -G "%CMAKE_GENERATOR%" ^
       -DCMAKE_BUILD_TYPE:STRING=%CMAKE_CONFIG% ^
       -DBUILD_SHARED_LIBS:BOOL=ON ^
       -DBUILD_STATIC_LIBS:BOOL=ON ^
