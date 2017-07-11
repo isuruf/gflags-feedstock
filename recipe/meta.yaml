@@ -27,7 +27,6 @@ requirements:
     - toolchain
     - cmake
     - python  # [win]
-    - msinttypes  # [win and py<35]
 
 test:
   requires:
