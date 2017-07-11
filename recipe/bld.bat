@@ -14,8 +14,8 @@ cmake -G "%CMAKE_GENERATOR%" ^
       "%SRC_DIR%"
 
 cmake --build . --target install --config %CMAKE_CONFIG%
-
-type CMakeFiles/CMakeOutput.log
-type CMakeFiles/CMakeError.log
+cd CMakeFiles
+type CMakeOutput.log
+type CMakeError.log
 
 popd
